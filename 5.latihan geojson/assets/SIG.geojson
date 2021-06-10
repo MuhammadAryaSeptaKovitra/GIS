@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "Photos",
+  "features": [
+    { "type": "Feature", "properties": { "Remarks": "test RSUD", "Photo": "SIG_20210530_105148671.jpg", "Time": "30-05-2021 10:52:57" }, "geometry": { "type": "Point", "coordinates": [104.7523036437141, -2.9753032572307903, 41.0] } },
+    {
+      "type": "Feature",
+      "properties": { "Remarks": "RSUD KI test GETAS PENDOWO GROBOGAN", "Photo": "SIG_20210530_105952125.jpg", "Time": "30-05-2021 11:00:20" },
+      "geometry": { "type": "Point", "coordinates": [104.74514598864002, -2.9552952900119482, 50.0] }
+    },
+    { "type": "Feature", "properties": { "Remarks": "Klinik Buah Hati", "Photo": "SIG_20210530_135750291.jpg", "Time": "30-05-2021 13:58:17" }, "geometry": { "type": "Point", "coordinates": [110.80748224, -7.06294775, 46.0] } },
+    { "type": "Feature", "properties": { "Remarks": "RS Sekar Laras", "Photo": "SIG_20210530_141836570.jpg", "Time": "30-05-2021 14:19:03" }, "geometry": { "type": "Point", "coordinates": [110.88688478, -7.07726092, 55.0] } },
+    { "type": "Feature", "properties": { "Remarks": "RS Permata Bunda", "Photo": "SIG_20210530_144840118.jpg", "Time": "30-05-2021 14:49:04" }, "geometry": { "type": "Point", "coordinates": [110.91777551, -7.09414708, 55.0] } },
+    { "type": "Feature", "properties": { "Remarks": "RSI", "Photo": "SIG_20210530_145100296.jpg", "Time": "30-05-2021 14:51:17" }, "geometry": { "type": "Point", "coordinates": [110.91568389, -7.09792919, 58.0] } },
+    { "type": "Feature", "properties": { "Remarks": "RS Panti Rahayu \"Yakkum\"", "Photo": "SIG_20210530_145609976.jpg", "Time": "30-05-2021 14:56:37" }, "geometry": { "type": "Point", "coordinates": [110.91560367, -7.08325638, 49.0] } },
+    {
+      "type": "Feature",
+      "properties": { "Remarks": "RSUD Dr. R Soedjati Purwodadi Grobogan", "Photo": "SIG_20210530_145803234.jpg", "Time": "30-05-2021 14:59:48" },
+      "geometry": { "type": "Point", "coordinates": [110.91933309, -7.08469271, 51.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Remarks": "Klinik Pratama \"Darus Salam Medika\"", "Photo": "SIG_20210530_154307687.jpg", "Time": "30-05-2021 15:43:46" },
+      "geometry": { "type": "Point", "coordinates": [110.9248017, -7.11329001, 56.0] }
+    },
+    { "type": "Feature", "properties": { "Remarks": "Apotek Anugerah Sehat", "Photo": "SIG_20210531_155856215.jpg", "Time": "31-05-2021 15:59:12" }, "geometry": { "type": "Point", "coordinates": [111.21753193, -7.17845744, 112.0] } },
+    { "type": "Feature", "properties": { "Remarks": "Klinik Pratama Sahabat", "Photo": "SIG_20210531_160726279.jpg", "Time": "31-05-2021 16:07:45" }, "geometry": { "type": "Point", "coordinates": [111.23084083, -7.19233385, 121.0] } },
+    { "type": "Feature", "properties": { "Remarks": "Rumah Sakit Habibullah", "Photo": "SIG_20210531_161515485.jpg", "Time": "31-05-2021 16:15:35" }, "geometry": { "type": "Point", "coordinates": [111.22161744, -7.16925183, 106.0] } }
+  ]
+}

@@ -24,7 +24,7 @@ crossorigin="">
 
 
 <script type="text/javascript">
-    var mymap = L.map('mapid').setView([ -7.06294775,110.80748224], 10);
+    var mymap = L.map('mapid').setView([ -7.06294775,110.80748224], 5);
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -37,16 +37,18 @@ crossorigin="">
     function popUp(f,l){
     var out = [];
     if (f.properties){
+        if(f.geometry){
         // for(key in f.properties){
         //      out.push(key+": "+f.properties[key]);
         // }
         out.push("Nama Rumah Sakit: "+f.properties["Remarks"]);
         out.push('<img width="200px;" src="assets/Photos/'+String(f.properties["Photo"]) + '">');
-        out.push("Ini contoh Pop-up");
+        out.push("Koordinate "+f.geometry["coordinates"]);
         l.bindPopup(out.join("<br />"));
+        }
     }
 }
-    var jsonTest = new L.GeoJSON.AJAX(["assets/SIG_PHOTOS.geojson"],{onEachFeature:popUp}).addTo(mymap);  
+    var jsonTest = new L.GeoJSON.AJAX(["assets/SIG.geojson"],{onEachFeature:popUp}).addTo(mymap);  
 
 </script>
 </html>

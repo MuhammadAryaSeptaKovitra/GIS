@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "name": "Photos",
   "features": [
-    { "type": "Feature", "properties": { "Remarks": "RS PKU MUHAMMADIYAH GUBUG", "Photo": "SIG_20210530_105148671.jpg", "Time": "30-05-2021 10:52:57" }, "geometry": { "type": "Point", "coordinates": [110.66708819, -7.06023851, 41.0] } },
+    { "type": "Feature", "properties": { "Remarks": "test RSUD", "Photo": "SIG_20210530_105148671.jpg", "Time": "30-05-2021 10:52:57" }, "geometry": { "type": "Point", "coordinates": [110.66708819, -7.06023851, 41.0] } },
     {
       "type": "Feature",
       "properties": { "Remarks": "RSUD KI AGENG GETAS PENDOWO GROBOGAN", "Photo": "SIG_20210530_105952125.jpg", "Time": "30-05-2021 11:00:20" },
